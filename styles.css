@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, serif;
   background-color: #f4f4f4;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -69,4 +70,10 @@ body {
   padding: 20px;
   overflow: hidden;
   width: 100%;
+}
+
+@media(max-width:568px) {
+  .navbar-nav {
+    display: none
+  }
 }
